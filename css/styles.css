@@ -16,6 +16,7 @@ body{
   cursor: pointer;
   box-shadow: 0px 10px 0 #d1483e;
   user-select: none;
+  margin-bottom: 10px;
 }
 #btn:hover{
   opacity: 0.9;
@@ -24,7 +25,9 @@ body{
 #btn.pressed{
   box-shadow: 0 5px 0 #d1483e;
   margin-top:35px;
+  margin-bottom: 5px;
 }
+
 #int{
   width: 100%;
 }
@@ -39,8 +42,7 @@ input{
 }
 #results{
   word-break: break-all;
-  width: 100%;
-  margin: 50px 50px;
+  margin-left: 20px;
   font-size: 30px;
 }
 #results  *{
@@ -52,7 +54,7 @@ input{
   height: 50px;
   color: white;
   font-size: 30px;
-  margin: 10px 10px;
+  margin: 5px 5px;
   border-radius: 50%;
   background-color: #ef454a
 }
