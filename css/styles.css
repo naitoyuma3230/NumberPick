@@ -5,7 +5,7 @@ body{
 #btn{
   width: 200px;
   height: 200px;
-  background: #ef454a;
+  background: #1942f7;
   border-radius:50%;
   margin:30px auto 0;
   text-align: center;
@@ -14,7 +14,7 @@ body{
   font-size: 42px;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0px 10px 0 #d1483e;
+  box-shadow: 0px 10px 0 #03058a;
   user-select: none;
   margin-bottom: 10px;
 }
@@ -23,7 +23,7 @@ body{
 }
 
 #btn.pressed{
-  box-shadow: 0 5px 0 #d1483e;
+  box-shadow: 0 5px 0 #03058a;
   margin-top:35px;
   margin-bottom: 5px;
 }
@@ -49,12 +49,12 @@ input{
   display: inline-block;
   text-align: center;
   line-height: 55px;
-  box-shadow: 0 4px 0 rgb(163, 35, 23);
+  box-shadow: 0 4px 0 rgb(1, 11, 99);
   width: 50px;
   height: 50px;
   color: white;
   font-size: 30px;
   margin: 5px 5px;
   border-radius: 50%;
-  background-color: #ef454a
+  background-color: #2d3bfa
 }
