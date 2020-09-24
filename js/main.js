@@ -14,12 +14,11 @@
     let startInterval;
 
     
-    function set(){
+    // ページ読み込み時に実行
+    window.onload = function(){
       maxInt = 5;
-      array =[1,5,4,3,2];
-    }
-    
-    set();
+      array = [2,3,1,5,4];
+      }
 
     function start(){
         btnId =1;
