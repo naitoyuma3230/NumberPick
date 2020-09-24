@@ -13,6 +13,14 @@
 
     let startInterval;
 
+    
+    function set(){
+      maxInt = 5;
+      array =[1,5,4,3,2];
+    }
+    
+    set();
+
     function start(){
         btnId =1;
         if(dispInt == maxInt-1){
@@ -28,11 +36,11 @@
     window.randamInt = function randamInt(value){
         array = [];
         maxInt =  eval(value);//ビンゴ番号の最大値にhtmlで入力された数値を代入
-        console.log(maxInt)
+        // console.log(maxInt)
         for(let i = 1; i < maxInt+1; i++){
           array.push(i);
         }
-        console.log(array);
+        // console.log(array);
 
         //配列のランダム化フィッシャー・イェーツのシャッフル
         for(let i = array.length -1 ; i>0; i--){
@@ -47,7 +55,6 @@
         dispInt =0;
         resultsInt = [];
         results.textContent ="";
-
     }
 
 
